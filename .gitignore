@@ -1,0 +1,40 @@
+# Terraform working directory
+.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+*.backup
+
+# Terraform plans
+*.tfplan
+tfplan
+infra.tfplan
+lbc.tfplan
+product-identity.tfplan
+
+# Terraform variables / secrets
+terraform.tfvars
+terraform.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Environment / credentials
+.env
+.env.*
+.aws/
+credentials
+
+# Private keys
+*.key
+*.p12
+*.pfx
+
+# Logs
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+desktop.ini
